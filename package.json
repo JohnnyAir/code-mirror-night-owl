@@ -1,0 +1,53 @@
+{
+  "name": "code-mirror-night-owl",
+  "version": "1.0.0",
+  "description": "Night Owl theme for code mirror 6.",
+  "repository": "https://github.com/JohnnyAir/code-mirror-night-owl.git",
+  "author": {
+    "name": "John Ekunola",
+    "email": "tobiz2002@gmail.com"
+  },
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "keywords": [
+    "codemirror",
+    "editor",
+    "theme"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs.js"
+    },
+    "./night-owl": {
+      "import": "./dist/themes/night-owl.js",
+      "require": "./dist/themes/night-owl.cjs"
+    },
+    "./night-owl-light": {
+      "import": "./dist/themes/night-owl-light.js",
+      "require": "./dist/themes/night-owl-light.cjs"
+    }
+  },
+  "scripts": {
+    "prepublish": "npm build",
+    "build": "rm -rf dist && rollup -c"
+  },
+  "dependencies": {
+    "@codemirror/language": "^6.0.0",
+    "@codemirror/state": "^6.0.0",
+    "@codemirror/view": "^6.0.0",
+    "@lezer/highlight": "^1.0.0"
+  },
+  "devDependencies": {
+    "rollup-plugin-typescript2": "^0.36.0",
+    "rollup": "^4.2.0"
+  },
+  "files": [
+    "dist",
+    "readme.md"
+  ]
+}
