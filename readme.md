@@ -1,6 +1,6 @@
 # code-mirror-night-owl
 
-Night Owl Theme for codemirror 6, based on the [Night Owl](https://github.com/sdras/night-owl-vscode-theme) VS Code theme.
+Night Owl Theme for CodeMirror 6, based on the [Night Owl](https://github.com/sdras/night-owl-vscode-theme) VS Code theme.
 
 ![](./dark-light.png)
 
