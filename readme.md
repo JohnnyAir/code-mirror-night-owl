@@ -1,4 +1,4 @@
-# code-mirror-night-owl
+# code-mirror-night-owl ![npm](https://img.shields.io/npm/v/code-mirror-night-owl)
 
 Night Owl Theme for CodeMirror 6, based on the [Night Owl](https://github.com/sdras/night-owl-vscode-theme) VS Code theme.
 
